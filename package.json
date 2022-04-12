@@ -1,0 +1,23 @@
+{
+  "name": "shortener-service",
+  "version": "1.0.0",
+  "description": "A shortener service with Node and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Nicolás Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
